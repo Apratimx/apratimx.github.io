@@ -333,3 +333,12 @@
 			});
 
 })(jQuery);
+
+
+
+const h1 = document.querySelector("h1");
+let username = document.querySelector("username");
+
+username.addEventListener("input", function(e){
+	h1.innerText = e;
+})
